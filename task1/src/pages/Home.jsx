@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import img1 from '../assets/Profile.jpeg';
 import audioFile from '../assets/Squid game.mp3'; 
 import { RxSpeakerLoud } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [count, setCount] = useState(0);
@@ -57,7 +58,7 @@ const Home = () => {
                     Follow me on Instagram
                   </a>
                 ) : (
-                  <a href="/squid-fail">Follow me on Instagram</a>
+                  <Link to="/fail">Follow me on Instagram</Link>
                 )}
               </h1>
             </div>

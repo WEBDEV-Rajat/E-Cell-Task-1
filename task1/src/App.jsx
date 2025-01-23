@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home/>}/>
         <Route path="/" element={<Grid/>}/>
-        <Route path="/squid-fail" element={<SquidFail/>}/>
+        <Route path="/fail" element={<SquidFail/>}/>
       </Routes>    
     </div>
   )
